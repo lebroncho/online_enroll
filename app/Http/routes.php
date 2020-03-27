@@ -15,4 +15,12 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
+Route::get('/bed', 'ReportController@bed');
+Route::get('/shs', 'ReportController@shs');
+Route::get('/ted', 'ReportController@ted');
+
+
+
+
+
 

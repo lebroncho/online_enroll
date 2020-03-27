@@ -12,7 +12,7 @@
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <li class="nav-item">
-                    <a href="{{ url('/dash') }}" class="nav-link">
+                    <a href="{{ url('/') }}" class="nav-link">
                         <p>
                             <i class="fas fa-fw fa-tachometer-alt">
 
@@ -23,7 +23,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="{{ url('/bed') }}" class="nav-link">
                         <p>
                             <i class="fas fa-chart-bar"></i>
 
@@ -34,7 +34,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="{{ url('/shs') }}" class="nav-link">
                         <p>
                             <i class="fas fa-chart-bar"></i>
 
@@ -45,7 +45,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="{{ url('/ted') }}" class="nav-link">
                         <p>
                             <i class="fas fa-chart-bar"></i>
 

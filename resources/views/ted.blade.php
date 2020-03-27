@@ -18,7 +18,7 @@
                                     </th>
                                     <th>ID</th>
                                     <th>Student</th>
-                                    <th>Grade</th>
+                                    <th>Course</th>
                                     <th>Gender</th>
                                     <th width="1">
                                         &nbsp;
